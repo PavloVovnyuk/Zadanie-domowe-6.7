@@ -17,7 +17,7 @@ public class Names {
         System.out.println ("Cześć " + name[4]);
         System.out.println ("Cześć " + name[3]);
         System.out.println ("Cześć " + name[2]);
-        System.out.println ("Cześć " + name[2]);
         System.out.println ("Cześć " + name[1]);
+        System.out.println ("Cześć " + name[0]);
     }
 }
