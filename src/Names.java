@@ -1,23 +1,20 @@
-import java.util.Scanner;
+import java.util.Arrays;
+        import java.util.Scanner;
 
 public class Names {
     public void imputNames() {
-        String[] name = new String[5];
+        String[] tabela = new String[5];
         Scanner scanner = new Scanner (System.in);
-        System.out.println ("Wprowadż 1 imije");
-        name[0]= scanner.nextLine ();
-        System.out.println ("Wprowadż 2 imije");
-        name[1]= scanner.nextLine ();
-        System.out.println ("Wprowadż 3 imije");
-        name[2]= scanner.nextLine ();
-        System.out.println ("Wprowadż 4 imije");
-        name[3]= scanner.nextLine ();
-        System.out.println ("Wprowadż 5 imije");
-        name[4]= scanner.nextLine ();
-        System.out.println ("Cześć " + name[4]);
-        System.out.println ("Cześć " + name[3]);
-        System.out.println ("Cześć " + name[2]);
-        System.out.println ("Cześć " + name[1]);
-        System.out.println ("Cześć " + name[0]);
+        for (int i = 0; i < 5; i++) {
+            System.out.println ("Wprowadz imie");
+            tabela[i] = scanner.nextLine ();
+
+
+        }
+        for (String i : tabela) {
+            System.out.println (tabela[4] + " \n" + tabela[3] + "\n" + tabela[2] + "\n" + tabela[1] + "\n" + tabela[0] + "\n");
+
+            break;
+        }
     }
 }
